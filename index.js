@@ -10,7 +10,7 @@ try {
   console.log(`Hello ${nameToGreet}!`);
   console.log(`The event github context: \n\n\n ${githubContext}`);
 
-  core.setOutput('time', time);
+  // core.setOutput('time', time);
 } catch (error) {
   core.setFailed(error.message);
 }
